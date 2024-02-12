@@ -1,5 +1,2 @@
-[bash]
-----
 make say-hello:
-  Hello, world!
-----
+    Hello, world!
