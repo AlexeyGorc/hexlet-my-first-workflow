@@ -2,7 +2,7 @@ name: Hexlet Workflow
 on: push
 jobs:
   build:
-    runs-on: ubuntu-linux
+    runs-on: ubuntu-latest
     steps:
       - name: Hello, World
         run: make say-hello
