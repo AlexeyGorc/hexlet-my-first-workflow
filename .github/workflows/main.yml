@@ -1,8 +1,10 @@
 name: Hexlet Workflow
-on: push
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repo code
+        run: actions/checkout@v4
       - name: Hello, World
         run: make say-hello
