@@ -1,0 +1,8 @@
+name: Hexlet Workflow
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-linux
+    steps:
+      - name: Hello, World
+        run: make say-hello
